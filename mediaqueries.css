@@ -1,4 +1,4 @@
-@media screen and (max-width:500px) {
+@media (min-width:600px) and (max-width:800px) {
     *{
         margin: 0;
         padding: 0;
@@ -7,36 +7,35 @@
         body{
             box-sizing: border-box; 
             width: 100vw;
+            height: 100%;
             overflow-x: hidden;        
             margin: 0;
          }
          /* hide elements for phone */
-        #categories,.input-box,.box4{
+        #categories,.input-box,.box4,.login span{
     display: none;
          }
          /* nav started */
         nav{
-        height: 3.5rem;
-        width: 100%;
+        height: 5rem;
+        width: 100vw;
         
          } 
         .open-colaps-nav{
         position: absolute;
-        left: -3rem;
-        font-size: 1.7rem;
+        left: -6vw;
+        font-size: 5vw;
          }
         .flora-market p{
-       margin-left: 8rem;
-       font-size:2rem;
+       margin-left: 10vw;
+       font-size:6vw;
          }
-        .login span{
-      display: none;
-         }
+        
         .login {
-     margin-right: 4.5rem;
+     margin-right:-5vw;
          }
         .login i{
-        font-size: 1.7rem;
+        font-size: 5vw;
          }
     /* nav complete */
     /* home section started */
@@ -45,8 +44,8 @@
            height: 25vh;
          }
         .home-image{
-           height: 15rem;
-           width: 27rem;
+           height: 60vw;
+           width: 100vw;
          }
         .home-img-button{
            display: none;
@@ -54,36 +53,39 @@
     /* home complete */
     /* deal of the day section started */
          #deal-of-the-day{
-       margin-bottom: 0;
+       margin-bottom:0;
+       /* height: 100vw; */
          }
          .deal-of-the-day-para1{
-      font-size: 1.4rem;
-      margin-left: 5rem;
-      margin-top: 1.5rem;
+      font-size: 5vw;
+      margin-left: 20vw;
+      margin-top: 33vw;
          }
          .deal-of-the-day-para2{
-         font-size: .9rem;
-         margin-left: 3.3rem;
+         font-size: 2.5vw;
+         margin-left: 7.5vw;
        
          }
          .deal-of-the-day-heading{
-           font-size: 1.5rem;
-           margin-left: 9.5rem;
+           font-size: 5vw;
+           margin-left: 33vw;
          }
          .product-container {
-           gap: 0.5rem;
+           gap: 2vw;
+           /* margin-left: -2vw; */
          } 
          /* product started */
          .product {
            flex: 0 0 50%;
+           margin-left: -2vw;
          }
          .product img {
-           width: 10rem;
-           height: 15rem;
+           width: 40vw;
+           height: 40vw;
          }
          .description {
-           font-size: 1rem;
-          line-height: 0.9;
+           font-size: 2.7vw;
+         
          } 
          .price {
            margin-bottom: 0.5rem;
@@ -91,175 +93,191 @@
          }
          /* best seller started */
          #best-seller{
-           width: 100%;
-           height: 72vh;
-           margin-top:-13rem;
+           margin-top:-4vw;
          }
          .bs-heading{
-           margin-left: 6rem;
+           margin-left: 23vw;
          }
          /* -- pots-only-section started */
          #pots-only{
-           width: 100%;
-           height: 72vh;
-           margin-top: -11rem;
+           /* width: 100%;
+           height: 72vh; */
+           margin-top: -4vw;
          }
           /* trending section started */
-         #trending{
-            margin-top: -10rem;
+          #trending{
+            margin-top: -4vw;
          }
          .trending-section h2{
-            margin-left: 6.5rem;
+            margin-left: 27vw;
+            font-size: 5vw;
          }
          .trending-container {
-            margin-left:-2rem;
+            margin-left:-2.5vw;
             display: flex; 
             flex-wrap: wrap;
-            gap:0; 
+            gap: 0; 
             margin-bottom: 2rem;
          }
          .trending-product {
             width: 50%;
-            height: 15rem;
+            height: 50vw;
          }
          .trending-product-image {
-            width: 12rem; 
-            height: 12rem; 
-            margin-bottom:0;
+            width: 43vw; 
+            height: 43vw; 
+            /* margin-bottom:0; */
          }
          .trending-product-name-price {
-            font-size: 0.7rem;
+            font-size: 2.6vw;
             margin-left: 0.3rem;
-         }
+         } 
      /* decore section started*/
          #decore{
-            width: 100%;
-            height: 120vh;
+             width: 100%;
+            height: 120vh; 
+            margin-top: 43vw;
+            margin-bottom: 3vw;
           }
           .decore-product-box1{
             width: 100%;
             display: block;
-           margin-left:-1rem;
-           padding: 0.2rem;
+           margin-left:-3.5vw;
+           padding: 1.5vw;
           }
           .decore-product1{
-            height: 15rem;
+            height: 43vw;
             width: 100%;
           }
           #decore h2{
-            margin-left:7rem;
-            margin-top: -2rem;
+            margin-left:27vw;
+            margin-top: -4vw;
+            font-size: 5vw;
           } 
           .image3{
-            margin-top: 2rem;
+            margin-top: 40vw;
+            
+          }
+          .image4{
+            margin-top: 4vw;
+           
           }
           .image2{
-            margin-bottom: 5rem;
+            margin-bottom: 14vw;
+            margin-top: 3vw;
           }
           .decore-product1 h3{
-            margin-top: -1rem;  
+            margin-top: 2vw;  
             margin-left: 0;
-            font-size: 1.5rem;
+            font-size: 5vw;
             font-weight: 700;
           }
           .decore-product1 p{
-             font-size: 1rem;
+             font-size: 3.4vw;
              margin-left: 0;
              line-height: 1.2;
              font-weight: 400;
           }
           .decore-product1 button{
-            height: 2.5rem;
-            width: 6rem;
-            border-radius: 0.5rem;
+            height: 7vw;
+            width: 15vw;
+            border-radius: 1vw;
             font-weight: 400;
             margin-left:0;
-            margin-top: 3rem;
+            margin-top: 5vw;
           } 
           /* whats new section started */
           #whats-new{
             height: 95vh;
+            margin-top: 70vw;
            }
            #whats-new h3{
-            margin: 1rem 0 2rem 10rem;
+            margin: 3vw 0 1vw 38vw;
+            font-size: 5vw;
            }
            .whats-new-container{
             display: inline-block;
-            padding: 0.2rem; 
+            padding: 1vw; 
            }
            .whats-new-container-box1{
-             height: 16rem;
+             height: 45vw;
              width: 100%;
-             padding: 0.1rem 0 0.4rem 0 ;
-             margin-bottom: 0.4rem;
+             padding: 3vw 0 2vw 0 ;
+             margin-bottom: 1vw;
            }
             .whats-new-container-box1 h2{
-            margin-left: 5rem;
-            font-size: 1.7rem;
+            margin-left: 30vw;
+            font-size: 4.5vw;
             font-weight: 600;
+            letter-spacing: 0.3vw;
+            
            }
             .whats-new-container-box1 p{
-             font-weight: 400;
+             font-weight: 300;
              line-height: 1.2;
-             margin-left: 6rem;
+             margin-left: 30vw;
            }
             .whats-new-container-box1 h4{
-          font-size: 1.5rem;
+          font-size: 5vw;
            }
            .whats-new-container-box1 button{
-          height: 2.5rem;
-          width: 6rem;
-          border-radius: 0.5rem;
+          height: 6vw;
+          width: 15vw;
+          border-radius: 1vw;
           font-weight: 400;
+           }
+           .blue-box h4{
+            margin-left: 30vw;
            }
            /* blog section started */
          #blog{
             width: 100%;
+            margin-top: 50vw;
            }
            .blog-main-para{
             width: 90%;
-            font-size: 1rem;
-            margin-left: 2rem;
+            font-size: 2.5vw;
+            margin-left: 6vw;
             line-height: 1.5;
            }
            #blog ul{
             line-height: 1.3;
            }
            #blog ul li{
-            margin-top: 1.5rem;
+            margin-top: 7vw;
            }
            .blog-heading{
-            margin-left: 2rem;
-            margin-top: 1rem;
-            font-size: 1.5rem;
+            margin-left: 5vw;
+            margin-top: 6vw;
+            font-size: 4vw;
            }
            .blog-para{
             width: 90%;
-            margin-left: 2.3rem;
-            margin-top: 0.5rem;
+            margin-left: 7vw;
+            margin-top: 2vw;
            }
            /*footer started*/
            .footer-main-box{
             width: 90%;
-            height: 20rem;
+            height: 55vw;
             display: flex;
-            margin-left: 1rem;
+            margin-left: 3vw;
             justify-content: space-around;
            }
            .footer-main-box li{
              line-height: 1.7;
              list-style: none;
              cursor: pointer;
-             margin-left: -1.2rem;
+             margin-left: -4vw;
              font-weight: 700;
-             font-size: 0.8rem;
+             font-size: 2.2vw;
            }
            .box1{
-            margin-top: 1rem;
+            margin-top: 2vw;
             height: 70%;
            } 
            .box1 p{
-            font-size: 1rem;
+            font-size: 3vw;
             line-height: 1;
            }
            .about-us{
@@ -267,97 +285,514 @@
           }
           .socials h2{
             margin-left: 40%;
+            margin-top: 4vw;
           }
           .social-container{
             width: 60%;
             margin-left: 22%;
-           font-size: 1.5rem;
+           font-size: 3.5vw;
           }
           .socials img{
-            height: 5rem;
-            width: 5rem;
-            margin-left: 42%;
-            margin-top: 2rem;
+            height: 10vw;
+            width: 10vw;
+            margin-left: 45%;
+            margin-top: 4vw;
           }
           .socials h1{
            margin-left: 43%;
+           margin-top: 15vw;
+          }
+          footer{
+            height: 30vw;
           }
           /* colaps nav started */
           .colaps-nav{
-            top: 3rem;
-            right:30%;
-            height: 35rem;
+            top: 10vw;
+            left:0.4vw;
+            height: 75vw;
+
           }
           .colaps-nav ul li{
-            font-size: 1rem;
-            width: 15rem;
-            height: 2rem;
-            border-radius: 0.5rem;
+            font-size: 2.5vw;
+            width: 30vw;
+            height: 4vw;
+            border-radius: 1vw;
           }
          .close-nav{
-          font-size: 2rem;
+          font-size: 6vw;
           }
           /* cart section started */
           #cart{
-            height: 45rem;
-            width: 30rem;
-            margin-left: 0.9rem;
+            height: 95vw;
+            width: 95vw;
+            margin-left:0;
+            margin-right: 2vw;
           }
           .cart-container{
-            margin-top: -2.5rem;
-            margin-left: 1.3rem;
-            gap: 1rem;
-            padding: 0.5rem;
+            margin-top: -5vw;
+            margin-left: 2vw;
+            gap: 1vw;
+            padding: 0.5vw;
           }
            .cart-item{
-           width: 10rem;
+           width: 25vw;
            }
            .cart-item img {
             width: 100%;
-            height: 10rem;
+            height: 25vw;
            }
            .cart-item p{
-            margin-top: -1rem;
+            margin-top: -2vw;
            }
           .close-cart{
             padding:0.5rem 0.9rem;
              position: relative;
-            top: 37rem;
-            right: 53%;
-            font-size: 2.5rem;
+            top: 80vw;
+            right: 45%;
+            font-size: 6vw;
             background-color: #fff;
             color: black;
             border-radius: 50%;
            }
           .cart-details{
-            margin-top: -2rem;
+            margin-top: 0;
             line-height:1;
            }
           .cart-details p{
-            padding: 0.5rem;
-            font-size: 1rem;
-            border-radius: 0.5rem; 
-            margin-left: 30%;
-            margin-bottom: 1rem;
+            padding: 1.3vw;
+            font-size: 2.3vw;
+            border-radius: 1vw; 
+            margin-left: 40%;
+            margin-bottom: 2vw;
            }
           #pay{
             margin-left: 40%;
            }
            /* auth started */
           .auth-box{
-            padding: 6rem;
+            padding: 6vw;
            }
           .auth-box h2{
-           margin-left:-6rem;
+           margin-left:6vw;
            }
           .buttons{ 
-          margin-left: 20%;
+          margin-left: 36%;
            }
           .log-in-button{
             background-color: green;
             color: white;
            }
           .inputs{
-            margin-left: -15%;
+            margin-left: 25%;
            }
     }
+@media (max-width:599px) {
+     *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto',sans-serif;
+         }
+        body{
+            box-sizing: border-box; 
+            width: 100vw;
+            height: 100%;
+            overflow-x: hidden;        
+            margin: 0;
+         } 
+         /* hide elements for phone */
+        #categories,.input-box,.box4,.login span{
+    display: none;
+         } 
+         /* nav started */
+        nav{
+        height: 3.2rem;
+        
+        
+         } 
+        .open-colaps-nav{
+        position: absolute;
+        left: -10vw;
+        font-size: 5vw;
+         }
+        .flora-market p{
+       margin-left: 10vw;
+       font-size:6vw;
+         }
+        
+        .login {
+     margin-right:-4vw;
+         }
+        .login i{
+        font-size: 5vw;
+         }
+    /* nav complete */
+    /* home section started */
+        #home{
+           width: 100%;
+           height: 25vh;
+         }
+        .home-image{
+           height: 60vw;
+           width: 100vw;
+         }
+        .home-img-button{
+           display: none;
+         }
+    /* home complete */
+    /* deal of the day section started */
+         #deal-of-the-day{
+       margin-bottom:0;
+       /* height: 100vw; */
+         }
+         .deal-of-the-day-para1{
+      font-size: 5vw;
+      margin-left: 20vw;
+      margin-top: 20vw;
+         }
+         .deal-of-the-day-para2{
+         font-size: 2.6vw;
+         margin-left: 7.5vw;
+       
+         }
+         .deal-of-the-day-heading{
+           font-size: 5vw;
+           margin-left: 33vw;
+         }
+         .product-container {
+           gap: 2vw;
+           /* margin-left: -2vw; */
+         } 
+         /* product started */
+         .product {
+           flex: 0 0 50%;
+           margin-left: -2vw;
+         }
+         .product img {
+           width: 40vw;
+           height: 40vw;
+         }
+         .description {
+           font-size: 2.7vw;
+         
+         } 
+         .price {
+           margin-bottom: 0.5rem;
+         
+         }
+         /* best seller started */
+         #best-seller{
+           margin-top:-60vw;
+         }
+         .bs-heading{
+           margin-left: 23vw;
+         }
+         /* -- pots-only-section started */
+         #pots-only{
+           /* width: 100%;
+           height: 72vh; */
+           margin-top: -50vw;
+         }
+          /* trending section started */
+          #trending{
+            margin-top: -50vw;
+         }
+         .trending-section h2{
+            margin-left: 27vw;
+            font-size: 5vw;
+         }
+         .trending-container {
+            margin-left:-4.5vw;
+            display: flex; 
+            flex-wrap: wrap;
+            gap: 0; 
+            margin-bottom: 2rem;
+         }
+         .trending-product {
+            width: 50%;
+            height: 50vw;
+         }
+         .trending-product-image {
+            width: 43vw; 
+            height: 43vw; 
+            /* margin-bottom:0; */
+         }
+         .trending-product-name-price {
+            font-size: 2.7vw;
+            margin-left: 0.3rem;
+            
+         } 
+     /* decore section started*/
+         #decore{
+             width: 100%;
+            height: 120vh; 
+            margin-top: -15vw;
+            margin-bottom: 3vw;
+          }
+          .decore-product-box1{
+            width: 100%;
+            display: block;
+           margin-left:-3.5vw;
+           padding: 1.5vw;
+          }
+          .decore-product1{
+            height: 43vw;
+            width: 100%;
+          }
+          #decore h2{
+            margin-left:27vw;
+            margin-top: -4vw;
+            font-size: 5vw;
+            
+          } 
+          .image3{
+            margin-top: -15vw;
+            
+          }
+          .image4{
+            margin-top: 4vw;
+           
+          }
+          .image2{
+            margin-bottom: 0;
+            margin-top: 3vw;
+          }
+          .decore-product1 h3{
+            margin-top: 2vw;  
+            margin-left: 0;
+            font-size: 5vw;
+            font-weight: 700;
+          }
+          .decore-product1 p{
+             font-size: 3.4vw;
+             margin-left: 0;
+             line-height: 1.2;
+             font-weight: 400;
+          }
+          .decore-product1 button{
+            height: 9vw;
+            width: 22vw;
+            border-radius: 1vw;
+            font-weight: 400;
+            margin-left:0;
+            margin-top: 5vw;
+            font-size: 3.2vw;
+          } 
+          /* whats new section started */
+          #whats-new{
+            height: 95vh;
+            margin-top:-40vw;
+           }
+           #whats-new h3{
+            margin: 0 0 1vw 35vw;
+            font-size: 5vw;
+           }
+           .whats-new-container{
+            display: inline-block;
+            padding: 1vw; 
+           }
+           .whats-new-container-box1{
+             height: 45vw;
+             width: 100%;
+             padding: 2vw 0 2vw 0 ;
+             margin-bottom: 1vw;
+           }
+            .whats-new-container-box1 h2{
+            margin-left: 20vw;
+            font-size: 5vw;
+            font-weight: 600;
+            letter-spacing: 0.2vw;
+            
+           }
+            .whats-new-container-box1 p{
+             font-weight: 300;
+             line-height: 1;
+             margin-left: 20vw;
+             margin-top: -2vw;
+             font-size: 4vw;
+           }
+            .whats-new-container-box1 h4{
+          font-size: 5vw;
+          margin-top: -2vw;
+           }
+           .whats-new-container-box1 button{
+          height: 9vw;
+          width: 22vw;
+          border-radius: 1vw;
+          font-weight: 400;
+         
+          margin-left:35vw;
+          margin-top: 1vw;
+          
+          font-size: 3.2vw;
+           }
+           .blue-box h4{
+            margin-left: 30vw;
+           }
+           /* blog section started */
+         #blog{
+            width: 100%;
+            margin-top: -55vw;
+           }
+           .blog-main-para{
+            width: 90%;
+            font-size: 3vw;
+            margin-left: 6vw;
+            line-height: 1.5;
+           }
+           #blog ul{
+            line-height: 1.3;
+           }
+           #blog ul li{
+            margin-top: 7vw;
+           }
+           .blog-heading{
+            margin-left: 5vw;
+            margin-top: 6vw;
+            font-size: 4vw;
+           }
+           .blog-para{
+            width: 90%;
+            margin-left: 7vw;
+            margin-top: 2vw;
+            font-size: 3vw;
+           }
+           /*footer started*/
+           .footer-main-box{
+            width: 90%;
+            height: 55vw;
+            display: flex;
+            margin-left: 3vw;
+            justify-content: space-around;
+           }
+           .footer-main-box li{
+             line-height: 1.7;
+             list-style: none;
+             cursor: pointer;
+             margin-left: -4vw;
+             font-weight: 700;
+             font-size: 2.2vw;
+           }
+           .box1{
+            margin-top: 2vw;
+            height: 70%;
+           } 
+           .box1 p{
+            font-size: 3vw;
+            line-height: 1;
+           }
+           .about-us{
+             margin-left: 20%;
+          }
+          .socials h2{
+            margin-left: 40%;
+            margin-top: 15vw;
+          }
+          .social-container{
+            width: 60%;
+            margin-left: 22%;
+           font-size: 3.5vw;
+          }
+          .socials img{
+            height: 10vw;
+            width: 10vw;
+            margin-left: 45%;
+            margin-top: 4vw;
+          }
+          .socials h1{
+           margin-left: 43%;
+           margin-top: 15vw;
+          }
+          footer{
+            height: 30vw;
+          }
+          /* colaps nav started */
+          .colaps-nav{
+            top: 10vw;
+            left:0.4vw;
+            height: 55vh;
+            width: 70vw;
+
+          }
+          .colaps-nav ul li{
+            font-size: 3vw;
+            width: 40vw;
+            height: 5vw;
+            border-radius: 1.5vw;
+            margin-left: 6vw;
+          
+          }
+          .colaps-nav ul{
+            margin-top: -8vw;
+          }
+         .close-nav{
+          font-size: 6vw;
+        
+
+          }
+          /* cart section started */
+          #cart{
+            height: 95vw;
+            width: 95vw;
+            margin-left:0;
+            margin-right: 2vw;
+          }
+          .cart-container{
+            margin-top: -8vw;
+            margin-left: 2vw;
+            gap: 1vw;
+            padding: 0.5vw;
+          }
+           .cart-item{
+           width: 30vw;
+           height: 35vw;
+           }
+           .cart-item img {
+            width: 100%;
+            height: 25vw;
+           }
+           .cart-item p{
+            margin-top: -5vw;
+           }
+          .close-cart{
+            padding:1.5vw 2.5vw;
+             position: relative;
+            top: 80vw;
+            right: 45%;
+            font-size: 6vw;
+            background-color: #fff;
+            color: black;
+            border-radius: 50%;
+           }
+          .cart-details{
+            margin-top: -4vw;
+            line-height:1;
+           }
+          .cart-details p{
+            padding: 1.3vw;
+            font-size: 3vw;
+            border-radius: 1vw; 
+            margin-left: 40%;
+            margin-bottom: 2vw;
+           }
+          #pay{
+            margin-left: 40%;
+           }
+           /* auth started */
+          .auth-box{
+            padding: 6vw;
+           }
+          .auth-box h2{
+           margin-left:-5vw;
+           }
+          .buttons{ 
+          margin-left: 30%;
+           }
+          .log-in-button{
+            background-color: green;
+            color: white;
+           }
+          .inputs{
+            margin-left: 10vw;
+           }
+    }
+

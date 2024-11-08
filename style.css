@@ -742,3 +742,29 @@ color: black;
   display:none ;
 }
 
+/* #trending{
+            margin-top: 1vw;
+         }
+         .trending-section h2{
+            margin-left: 6.5rem;
+         }
+         .trending-container {
+            margin-left:-2rem;
+            display: flex; 
+            flex-wrap: wrap;
+            gap:0; 
+            margin-bottom: 2rem;
+         }
+         .trending-product {
+            width: 50%;
+            height: 15rem;
+         }
+         .trending-product-image {
+            width: 12rem; 
+            height: 12rem; 
+            margin-bottom:0;
+         }
+         .trending-product-name-price {
+            font-size: 0.7rem;
+            margin-left: 0.3rem;
+         }*/
