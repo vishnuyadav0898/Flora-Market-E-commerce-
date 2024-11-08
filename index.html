@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flora Market Ecomm.</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <!-- nav started -->
+     <nav>
+      <!-- colaps-nav started -->
+      <div class="colaps-nav">
+        <span><i class="fa-solid fa-xmark close-nav"></i></span>
+        <ul>
+          <li> <a href="#home">HOME</a></li>
+          <li> <a href="#best-seller">PRODUCTS</a></li>
+          <li> <a href="#footer">SIGN UP</a></li>
+          <li> <a href="#footer">SOCIALS</a></li>
+          <li> <a href="#blog">ABOUT US</a></li>
+        </ul>
+      </div>
+      <!-- colaps-nav completed -->
+       <!-- nav elements started -->
+       <div class="flora-market">
+        <i class="fa-solid fa-bars open-colaps-nav"></i>
+        <p > <span><i>Flora</i></span> Market</p></div>
+        <label for="categories"></label>
+        <select name="All-categories" id="categories" onclick="navigateToSection()">
+            <option value="home">All Categories</option>
+            <option value="deal-of-the-day">Deal Of The Day</option>
+            <option value="best-seller">Best Seller</option>
+            <option value="pots-only">Pots Only</option>
+            <option value="trending">Trending</option>
+            <option value="decore">Garden Decor & Care</option>
+            <option value="whats-new">What's New</option>
+        </select>
+       <div class="input-box"> <input type="text" class="input-text" placeholder="What Are You Looking For"/>
+        <i class="fa-solid fa-magnifying-glass"></i></div>
+       <div class="login">
+        <i class="fa-solid fa-right-from-bracket Logout"></i>
+        <span>Logout</span>
+       <i class="fa-solid fa-cart-shopping shoping-cart"></i>
+         </div>
+         <!-- nav elements completed -->
+          <!-- cart started -->
+         <div id="cart">
+          <div class="close"><i class="fa-solid fa-xmark close-cart"></i> </div>
+          <div class="cart-container"></div>
+          <div class="cart-details">
+            <p class="total"></p>
+            <p class="cart-value"></p>
+            <p class="grand-total"></p>
+            <p id="pay">PAY NOW</p>
+          </div>
+        </div>
+        <!-- cart completed -->
+    </nav>
+    <!-- nav completed -->
+    <!-- sections started  -->
+     <!-- home section started-->
+      <section id="home">
+        <div class="home-image"><img src="./images/main-image.jpg" alt="home-image"  ><button class="home-img-button">Shop Now</button></div>
+     </section> 
+     <!-- deal-of-the-day section started-->
+      <section id="deal-of-the-day">
+        <p class=" deal-of-the-day-para1">Buy Plants Online In Jaipur</p>
+        <P class="deal-of-the-day-para2">600+ Gardening Product To Make Spaces Around Us Healthy And Greener</P>
+        <h3 class="deal-of-the-day-heading">Deal of the Day</h3>
+        <div class="product-container deal-of-the-day-container"></div>
+     </section> 
+     <!-- best-seller-section started-->
+      <section id="best-seller">
+        <h3 class="deal-of-the-day-heading bs-heading">Best Seller Plants Packs</h3>
+        <div class="product-container best-seller-container"></div>
+     </section> 
+     <!-- pots-only-section started-->
+     <section id="pots-only">
+        <h3 class="deal-of-the-day-heading">Pots Only Pack</h3>
+        <div class="product-container pots-only-container"></div>
+     </section> 
+     <!-- Trending section started-->
+      <section id="trending">
+        <div class="trending-section">
+            <h2>Trending Products</h2>
+            <div class="trending-container">
+              <div class="trending-product">
+                <img src="./images/trending-product01.jpg" alt="Trending Product 1" class="trending-product-image">
+                <p class="trending-product-name-price">Ceramic Planters - Starting ₹349</p>
+              </div>
+              
+              <div class="trending-product">
+                <img src="./images/trending-product02.webp" alt="Trending Product 2" class="trending-product-image">
+                <p class="trending-product-name-price">Month Wise Gardening - 65% Off</p>
+              </div>
+              
+              <div class="trending-product">
+                <img src="./images/trending-product03.webp" alt="Trending Product 3" class="trending-product-image">
+                <p class="trending-product-name-price">Kokedama - Starting ₹349</p>
+              </div>
+              
+              <div class="trending-product">
+                <img src="./images/trending-product04.webp" alt="Trending Product 4" class="trending-product-image">
+                <p class="trending-product-name-price">Bonsai Plants - Upto 25% Off</p>
+              </div>
+              
+              <!-- <div class="trending-product">
+                <img src="./images/trending-product05.jpg" alt="Trending Product 5" class="trending-product-image">
+                <p class="trending-product-name-price">Ceramic Planters - Starting ₹349</p>
+              </div> -->
+            </div>
+          </div>
+     </section> 
+     <!-- decore section started-->
+      <section id="decore">
+          <h2>Garden Decor & Care</h2>
+      <div class="decore-product-box1">
+          <div class="decore-product1 image1" >
+            <h3>Planters-Starting ₹59</h3>
+            <p>Add color to your garden.400+ pots of different <br>color,shapes,and materials.</p>
+            <button>Shop Now</button>
+          </div>
+          <div class="decore-product1 image2">
+            <h3>Soil & Fertilizer-Starting ₹30</h3>
+            <p>Healthy food is a key for healthy plants choose <br>from a wide range of soil and fertilizer.</p>
+            <button>Shop Now</button>
+          </div>
+      </div>
+      <div class="decore-product-box1">
+        <div class="decore-product1 image3">
+          <h3>Pebbels-Starting ₹59</h3>
+          <p>Add visual and textural features to your garden <br>with a wide range of natural pebbles.</p>
+          <button>Shop Now</button>
+        </div>
+        <div class="decore-product1 image4">
+          <h3>Tools-Starting ₹149</h3>
+          <p>Get a tool for every gardening activity and make <br>it a fun experience.</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+     </section> 
+     <!-- whats new section started-->
+      <section id="whats-new">
+      <h3>What's New</h3>
+       <div class="whats-new-container">
+        <div class="whats-new-container-box1 yellow-box">
+          <h2>GARDENING SERVICES</h2>
+          <p>Let's create your dream garden <br>together!</p>
+          <h4>Starting@ ₹399</h4>
+          <button>Book Now</button>
+        </div>
+        <div class="whats-new-container-box1 blue-box">
+          <h2>LIVE CONSULTATION</h2>
+          <p>25 min video consultation with <br>gardening experts</p>
+          <h4>Worth ₹49</h4>
+          <button>Book Now</button>
+        </div>
+        <div class="whats-new-container-box1 green-box">
+          <h2>GARDENING WORKSHOPS</h2>
+          <p>Workshops exclusively created for you <br>learn cultivating plants and joy!</p>
+          <h4>Starting@ ₹499</h4>
+          <button>Book Now</button>
+        </div>
+       </div>
+     </section> 
+     <!-- blog section started-->
+       <section id="blog">
+        <p class=" deal-of-the-day-para1">Buy Plants Online In Jaipur</p>
+       <p class="blog-main-para">Unearth a Green Paradise with Nurserylive's Online Plant Shopping in Jaipur <br>
+        Discover a lush oasis in Jaipur with Nurserylive's vast online plant collection. Shop now for the perfect plants to transform your space! <br>
+        Intro: Did you know that Jaipur, the Pink City, is home to over 3 million people and more than 350 species of unique flora? <br>
+        As a city steeped in history, culture, and a growing love for greenery, it's no wonder that residents are eager to bring a touch of nature into their urban dwellings. <br>
+        With Nurserylive's online plant shopping in Jaipur, you can add a dash of natural charm to your home, office, or garden without ever leaving your cozy abode.</p>
+      <ul class="blog-main-para">
+        <li>A Treasure Trove of Plant Choices Why settle for a limited selection when you can have access to a botanical wonderland? Nurserylive offers an extensive range of plants suited for every lifestyle and environment, from elegant indoor foliage to vibrant flowering shrubs that'll make your garden the talk of the town. Our user-friendly website makes it easy to find your perfect green companion, while our expert plant care tips ensure your new addition thrives.</li>
+        <li>Cultivate Your Green Thumb with Expert Guidance Not sure if you have what it takes to be a plant parent? Fret not! According to a study by the University of Florida, even novice gardeners can develop a green thumb with the right guidance. Our team of horticulture experts is here to help you every step of the way, ensuring your plants not only survive but flourish in their new surroundings.</li>
+        <li>Fast and Reliable Delivery In today's fast-paced world, you shouldn't have to wait for ages to enjoy your new plant purchases. Nurserylive's swift and efficient delivery ensures your plants reach your doorstep in Jaipur without breaking a sweat, all while maintaining their peak health and vitality.</li>
+        <li>Eco-Friendly Packaging for a Greener Tomorrow As part of our commitment to a greener tomorrow, Nurserylive uses eco-friendly, recyclable packaging materials for all shipments. This not only reduces our carbon footprint but also ensures your plants arrive in pristine condition, ready to bring joy and serenity to your space.</li>
+      </ul>
+      <h2 class="blog-heading">Online Nursery Jaipur</h2>
+      <p class="blog-para">Forget wandering aimlessly in search of your perfect plant Online Nursery Jaipur is here to save the day! Browse through our vast collection from the comfort of your home and watch as your urban jungle comes to life. No more long lines or wilting plants, just green goodness at your fingertips, ready to elevate your living space to new heights.</p>
+      <h2 class="blog-heading">Indoor Plants Jaipur</h2>
+      <p class="blog-para">Bring the great outdoors inside with Indoor Plants Jaipur. Our thoughtfully curated collection boasts air-purifying, low-maintenance plants that add a touch of natural beauty to any room. With our expert guidance, even the most inexperienced plant parent can become a green-thumbed guru, making their home a verdant sanctuary amidst the bustling cityscape.</p>
+      <h2 class="blog-heading">Garden Plants Jaipur</h2>
+      <p class="blog-para">Awaken your inner gardener with our vibrant array of Garden Plants Jaipur. From enchanting flowering shrubs to sturdy trees that provide shade and serenity, we have everything you need to create a backyard paradise. Say goodbye to drab, lifeless landscapes and hello to a lush, thriving oasis that'll make your neighbors green with envy!</p>
+      <h2 class="blog-heading">Plant Delivery Jaipur</h2>
+      <p class="blog-para">The days of lugging heavy pots and bags of soil are long gone, thanks to Plant Delivery Jaipur. Our swift, reliable service ensures your plants arrive at your doorstep in tip-top condition, ready to flourish in their new home. No more plant casualties due to bad handling just happy plants and even happier customers!</p>
+      <h2 class="blog-heading">Exotic Plants Jaipur</h2>
+      <p class="blog-para">Craving a touch of the extraordinary? Exotic Plants Jaipur is here to quench your thirst for the unique and unusual. Explore our selection of rare and exotic plants that'll transform any ordinary space into a mesmerizing botanical wonderland. With our expert guidance, you'll be the proud owner of a rare gem that's both eye-catching and conversation-starting.</p>
+    </section> 
+    <!-- footer section started-->
+     <Footer id="footer">
+    <div class="footer-main-box">
+      <div class="box1">
+        <p>Gardening Knowledge</p>
+        <ul>
+          <li>Blogs > Plant Talk</li>
+          <li>Blog > Kitchen Gardening</li>
+          <li>blog.nurserylive.com</li>
+          <li>Blogs > Top 10 Plants</li>
+          <li>wiki.nurserylive.com</li>
+        </ul>
+      </div>
+      <div class="box1">
+        <p>Useful Links</p>
+        <ul>
+          <li>Track Order</li>
+          <li>Orders</li>
+          <li>FAQ's</li>
+          <li>Rewards</li>
+          <li>Corporate</li>
+        </ul>
+      </div>
+      <div class="box1">
+        <p class="about-us">About us</p>
+        <ul>
+          <li>About Nurserylive</li>
+          <li>Contact us</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+      <div class="box4">
+        <h3>Subscribe</h3>
+        <p>Join us to receive gardening tips, offers, news <br> & more</p>
+        <input placeholder="Email Address" type="text" >
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="socials">
+      <h2>Follow us</h2>
+      <div class="social-container">
+         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+         <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+         <a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+         <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+         <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <img src="./images/footer-image.jpg" alt="footer-img">
+      <h1>Thank You <i class="fa-solid fa-heart"></i></h1>
+    </div>
+    </Footer>  
+    <!-- auth section started -->
+    <div class="auth-box">
+        <h2> <span class="signup-user">Sign-Up</span> & <span class="login-user">Log-In</span>  to see Content</h2>
+       <div class="sign-up-box">
+         <input type="text" placeholder="Enter your Name." class="inputs "><br>
+         <input type="text" placeholder="Enter your Email." class="inputs signup-email-box ">
+         <button class="sign-up-button buttons">Sign-up</button>
+      </div>
+      <div class="log-in-box">
+         <input type="text" placeholder="Enter your Name." class="inputs "><br>
+         <input type="text" placeholder="Confirm your Email." class="inputs  login-email-box">
+         <button class="log-in-button buttons">Log-in</button> 
+      </div>
+    </div> 
+    <!-- section completed -->
+ <script src="app.js"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
