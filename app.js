@@ -156,6 +156,8 @@
             
         if (email_arr.includes(email)) {
             alert("email alredy used , try to log in please")
+        }else if (email==="") {
+          alert("email is requried")
         }else{
             email_arr.push(email);
             localStorage.setItem("email_arr",JSON.stringify(email_arr));
@@ -173,7 +175,9 @@
      })
      document.querySelector(".log-in-button").addEventListener("click",()=>{
           let email =  document.querySelector(".login-email-box").value;
-       if (email_arr.includes(email)) {
+          if (email==="") {
+            alert("not a valid email")
+          }else if (email_arr.includes(email)) {
           allsection.forEach( (e)=>{
           e.style.display = "block";
           })
