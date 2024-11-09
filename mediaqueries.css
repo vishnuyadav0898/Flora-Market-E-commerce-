@@ -781,6 +781,7 @@
           .auth-box{
             padding: 6vw;
             padding-top: 20vw;
+            width: 100vw;
           
            }
           .auth-box h2{
