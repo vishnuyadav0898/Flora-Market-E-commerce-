@@ -780,9 +780,11 @@
            /* auth started */
           .auth-box{
             padding: 6vw;
+            padding-top: 20vw;
+          
            }
           .auth-box h2{
-           margin-left:-5vw;
+           margin-left:-10vw;
            }
           .buttons{ 
           margin-left: 30%;
