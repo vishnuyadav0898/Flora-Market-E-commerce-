@@ -490,11 +490,11 @@
          #pots-only{
            /* width: 100%;
            height: 72vh; */
-           margin-top: -50vw;
+           margin-top: -40vw;
          }
           /* trending section started */
           #trending{
-            margin-top: -50vw;
+            margin-top: -40vw;
          }
          .trending-section h2{
             margin-left: 27vw;
@@ -631,7 +631,7 @@
            /* blog section started */
          #blog{
             width: 100%;
-            margin-top: -55vw;
+            margin-top: -45vw;
            }
            .blog-main-para{
             width: 90%;
